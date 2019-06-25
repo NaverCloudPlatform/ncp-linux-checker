@@ -1164,7 +1164,7 @@ function disk_info
 
     # LVM information
     if [ -f $PVS ]; then
-       PVDIS=$($PVS | $GREP UUID )
+       PVDIS=$($PVS | $GREP UUID)
        #VGDIS=$($VGS | $GREP  UUID)
        #LVDIS=$($LVS | $GREP UUID)
 
