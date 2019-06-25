@@ -1,6 +1,6 @@
 #!/bin/bash            
 
-PKG_URL="http://source.edu100.ncloudedu.com:18080/download/vmcheck/source/vm-check/merge"
+PKG_URL="https://github.com/NaverCloudPlatform/ncp-linux-checker/blob/master"
 PKG_VER="1.4"            
 PKG_NAME="ncp-check_${PKG_VER}.sh"            
 WORKING_HOME="/opt/"            
