@@ -13,7 +13,7 @@ Description
 > linux-explorer.sh라는 tool을 참고로 하였으며  Naver Cloud Platform의 환경에 맞게  리팩토링 되고 수정되었습니다. <br>
 > 해당 작업을 통해 얻을 수 있는 benefit, 목적은 <br>
 >> 사용자 VM에 성능상의 이슈나 알 수 없는 오작동으로 문의가 들어왔을 때  vm-checker 실행을 통해 vm의 에러 로그와 성능 이슈를  빠르게 찾아서 해결하기 위함임.<br>
->> 예)iptables를 이용해 포트포워딩 설정을 했는데  정상동작을 하지 않는다. -> /proc/sys/net/ipv4/ip_forward 설정 정보 확인을 통해 사용자 실수 확인 <br>
+>> 예) iptables를 이용해 포트포워딩 설정을 했는데  정상동작을 하지 않는다. -> /proc/sys/net/ipv4/ip_forward 설정 정보 확인을 통해 사용자 실수 확인 <br>
      
 Rerference
 ===========
