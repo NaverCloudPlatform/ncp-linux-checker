@@ -1,3 +1,6 @@
+Intro
+======
+
 오픈소스인  linux-explorer.sh 를 참고하여 제작
 License : GLPv2
 스트립트 내용 (vm-check-v2.tar.gz)
@@ -8,7 +11,10 @@ License : GLPv2
    -s Verify Package Installation 
    -h This help message 
    -l  light version (SUMMARY only)
-** 스크립트 실행 **
+
+스크립트 실행
+==========
+<pre><code>
 [root@docker-no1 ~]# ./ncp-check_1.4.sh
 [*] Starting gathering process. 
 ============================================= 
@@ -102,3 +108,4 @@ Environment ( TEST / DEV / PROD ) : PROD (사용자 입력정보)
 ============================================= 
 [*] Completed gathering process. 
 =============================================
+</code></pre>
