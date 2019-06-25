@@ -1,9 +1,24 @@
-Intro
-======
+Tool Name
+==========
+> vm-checker.sh - 리눅스 서버 정보 수집 및 진단을 위한 스크립트 <br>
+
+Current Version
+===============
+> version number : 1.4
+    
+Description
+============
+> vm-checker.sh 는 리눅스 서버 (CentOS / Ubuntu) 서버의  상태 확인과 문제 진단을 위하여  리눅스 서버의 소프트웨어와 하드웨어 정보를 수집한다.<br>
+> 결과물은 tar.gz 파일로 압축되어 BTS 시스템에 자동으로 ISSUE의 첨부파일로 전달된다. <br>
+> linux-explorer.sh라는 tool을 참고로 하였으며  Naver Cloud Platform의 환경에 맞게  리팩토링 되고 수정되었습니다. <br>
+> 해당 작업을 통해 얻을 수 있는 benefit, 목적은 <br>
+>> 사용자 VM에 성능상의 이슈나 알 수 없는 오작동으로 문의가 들어왔을 때  vm-checker 실행을 통해 vm의 에러 로그와 성능 이슈를  빠르게 찾아서 해결하기 위함임.<br>
+>> 예)iptables를 이용해 포트포워딩 설정을 했는데  정상동작을 하지 않는다. -> /proc/sys/net/ipv4/ip_forward 설정 정보 확인을 통해 사용자 실수 확인 <br>
+     
+Rerference
+===========
 > 오픈소스인  linux-explorer.sh 를 참고하여 제작 <br>
 > License : GLPv2 <br>
-> 스트립트 내용 (vm-check-v2.tar.gz) <br>
-> 사용법 예시 :  ./ncp.checker.v4.sh -t network <br>
 
 
 스크립트 실행
