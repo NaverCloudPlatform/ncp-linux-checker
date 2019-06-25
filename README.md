@@ -1,6 +1,6 @@
 Tool Name
 ==========
-> vm-checker.sh - 리눅스 서버 정보 수집 및 진단을 위한 스크립트 <br>
+> ncp-check_1.4.sh - 리눅스 서버 정보 수집 및 진단을 위한 스크립트 <br>
 
 Current Version
 ===============
