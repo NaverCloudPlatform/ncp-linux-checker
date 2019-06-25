@@ -1,15 +1,10 @@
 Intro
 ======
 > 오픈소스인  linux-explorer.sh 를 참고하여 제작 <br>
-License : GLPv2
-> 스트립트 내용 (vm-check-v2.tar.gz)
-> 사용법 예시 :  ./ncp.checker.v4.sh -t network
->> -d Target directory for explorer files 
->> -t [hardware] [software] [configs] [cluster] [disks] [network] [general] [all] 
-   -v Verbose output 
-   -s Verify Package Installation 
-   -h This help message 
-   -l  light version (SUMMARY only)
+> License : GLPv2 <br>
+> 스트립트 내용 (vm-check-v2.tar.gz) <br>
+> 사용법 예시 :  ./ncp.checker.v4.sh -t network <br>
+
 
 스크립트 실행
 ==========
